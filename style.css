@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  background-color: #ffe599;
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+    margin: 30px 0;
+}
+main {
+  max-width: 850px;
+  text-align: center;
+  margin: 0 auto;
+}
+#alphabet-buttons li {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.active {
+  color: #ffe599;
+  background: #75716D;
+}
+li:hover {
+  color: #ffe599;
+  background :#75716D;
+}
+
+#myCanvas {
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+    margin-top: 20px;
+}
+#selected-word {
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 0.8em;
+  font-size: 20px;
+}
+/* Game Over View Styles */
+#play-again {
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  outline: medium none;
+  padding: 0.5em 0.6em;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.01);
+  transition: all 0.2s ease 0s;
+  vertical-align: middle;
+  color: black;
+}
+#play-again:hover {
+  background: black;
+	border: 1px solid white;
+	color: #ffe599;
+}
+
+

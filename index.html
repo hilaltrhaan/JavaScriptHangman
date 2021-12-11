@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Hangman</h1>
+    <div id="container">
+      <ul id="alphabet-buttons"></ul>
+      <div id="selected-word"></div>
+      <p>Number of Guesses:
+        <span id="score">0</span>
+      </p>
+      <div id="score"></div>
+    </div>
+    <canvas id="myCanvas" width="300" height="300" style="border:1px solid #ffe599;">
+      Your browser does not support the canvas element.
+    </canvas>
+  </main>
+  <script src="js/words.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/drawing.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
